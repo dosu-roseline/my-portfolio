@@ -5,7 +5,7 @@ import arrow from '../assets/arrow.svg';
 function Card({ img, title, des, gitLink, webLink, tools }) {
   return (
     <div
-      className="flex items-center mb-10 py-10 px-10 gap-10 "
+      className="flex flex-col md:flex-row items-center mb-5 md:mb-10 py-5 md:py-10 md:px-10 md:gap-10 h-[360px] md:h-[320px]"
       style={{
         background:
           'linear-gradient(180deg, #004757 22.70%, rgba(0, 36, 44, 0.00) 100%)',
@@ -26,19 +26,26 @@ function Card({ img, title, des, gitLink, webLink, tools }) {
         e.currentTarget.style.border = '3px solid #00517B';
       }}
     >
-      <div className="bg-[#00000033] rounded-2xl">
-        <img src={img} alt="" style={{ transition: 'transform 0.5s' }} />
+      <div className="bg-[#00000033] rounded-2xl w-[60%] md:w-[30%]">
+        <img
+          src={img}
+          alt=""
+          style={{ transition: 'transform 0.5s' }}
+          className="object-cover"
+        />
       </div>
-      <div className="">
-        <h1 className="text-[#D9D9D9] text-[40px] font-normal ">{title}</h1>
+      <div className="w-[90%] md:w-[70%]">
+        <h1 className="text-[#D9D9D9] text-[20px] md:text-[40px] font-normal ">
+          {title}
+        </h1>
         <p
-          className="text-[#D9D9D9] mb-2"
+          className="text-[#D9D9D9] mb-2 text-[12px] md:[16px]"
           style={{ fontFamily: 'Manrope, sans-serif' }}
         >
           {des}
         </p>
         <p
-          className="text-[#D9D9D9] text-[18px] font-normal pb-2 mb-5"
+          className="text-[#D9D9D9] text-[12px] md:text-[18px] font-normal pb-2 md:mb-5"
           style={{ fontFamily: 'Fira Code, monospace' }}
         >
           {tools}
@@ -49,16 +56,21 @@ function Card({ img, title, des, gitLink, webLink, tools }) {
               className="flex items-center gap-1 bg-transparent hover:bg-[#fff] hover:text-[#00242C] text-[#D9D9D9] font-semibold  py-1 px-2 md:px-5 border border-white hover:border-transparent rounded-3xl text-xs md:text-sm"
               style={{ fontFamily: 'Fira Code, monospace' }}
             >
-              View Github <img src={git} alt="Git Icon" className="h-[20px]" />{' '}
+              View Github{' '}
+              <img src={git} alt="Git Icon" className="md:h-[20px] h-[15px]" />{' '}
             </button>
           </a>
           <a href={webLink} target="blank">
             <button
-              className="flex items-center gap-1"
+              className="flex items-center gap-1 text-xs md:text-sm"
               style={{ fontFamily: 'Fira Code, monospace' }}
             >
               View website{' '}
-              <img src={arrow} alt="Website Icon" className="h-[20px]" />
+              <img
+                src={arrow}
+                alt="Website Icon"
+                className="md:h-[20px] h-[15px]"
+              />
             </button>
           </a>
         </div>

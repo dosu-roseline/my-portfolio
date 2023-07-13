@@ -21,11 +21,11 @@ function Intro() {
           <h1 className="text-[23px] md:text-[50px] lg:text-[66px] font-normal leading-none">
             I build things for the web
           </h1>
-          <p className="text-[16px] md:text-[24px] font-normal text-[#D9D9D9] w-[86%] py-8 md:w-[76%] lg:w-[49%] leading-none">
-            I create inclusive, accessible digital products, with experience
-            working with startups and enterprise products. I believe in using
-            product design as a tool to elevate human interaction with
-            technology that scale.
+          <p className="text-[16px] md:text-[24px] font-normal text-[#D9D9D9] w-[90%] py-8 md:w-[76%] lg:w-[49%] leading-none">
+            I am a passionate frontend developer with a keen eye for crafting
+            beautiful and intuitive user experiences. With a solid foundation in
+            HTML, CSS, and JavaScript, I strive to create pixel-perfect designs
+            that seamlessly blend aesthetics with functionality.
           </p>
           <a href="https://flowcv.com/resume/kcesuhc77r" target="blank">
             <button className="bg-transparent hover:bg-[#fff] hover:text-[#00242C] text-[#D9D9D9] font-semibold  py-1 px-2 md:px-5 border border-white hover:border-transparent rounded-3xl text-xs md:text-sm mb-10">

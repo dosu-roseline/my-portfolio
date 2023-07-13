@@ -9,14 +9,14 @@ function Projects() {
   return (
     <section
       id="work"
-      className=" bg-[#00242C] text-white px-20 py-10 border-t"
+      className=" bg-[#00242C] text-white px-5 md:px-20 py-10 border-t"
     >
       <div className="flex justify-between">
         <p className="py-4 flex items-center gap-2 text-[#E5FBFF]">
           <img src={line} alt="" /> Work
         </p>
         <h1
-          className="text-8xl font-normal leading-none text-transparent bg-clip-text"
+          className="text-4xl md:text-8xl font-normal leading-none text-transparent bg-clip-text"
           style={{
             backgroundImage:
               'linear-gradient(180deg, #004757 0%, rgba(0, 36, 44, 0.00) 100%)',
@@ -25,7 +25,7 @@ function Projects() {
           Work
         </h1>
       </div>
-      <h1 className="text-[24px] pb-10 text-[#D9D9D9]">
+      <h1 className="text-xl md:text-[24px] pb-5 md:pb-10 text-[#D9D9D9]">
         Check out Some of my Projects
       </h1>
       {data.map((project, index) => {
@@ -51,7 +51,7 @@ const data = [
   {
     img: natours,
     title: 'Natours',
-    des: 'Lorem ipsum dolor sit amet consectetur. Vulputate id habitant tempus gravida cursus purus dapibus pellentesque quam. Odio morbi non id et.',
+    des: 'Natours is a captivating website that offers exciting and immersive tour experiences for adventure enthusiasts.',
     tools: 'HTML, CSS & Vanilla JavaScript',
     webLink: 'https://natourstwo.vercel.app/',
     gitLink: 'https://github.com/dosu-roseline/natours',
@@ -59,7 +59,7 @@ const data = [
   {
     img: omniFood,
     title: 'Omni Food',
-    des: 'Lorem ipsum dolor sit amet consectetur. Vulputate id habitant tempus gravida cursus purus dapibus pellentesque quam. Odio morbi non id et.',
+    des: 'With a diverse menu of nutritious meals and seamless ordering process, Omni Food ensures that your culinary journey is not only delicious but also supports your well-being.',
     tools: 'HTML, CSS & Vanilla JavaScript',
     webLink: 'https://omini-food-neon.vercel.app/',
     gitLink: 'https://github.com/dosu-roseline/omini-food',
@@ -67,7 +67,7 @@ const data = [
   {
     img: starwars,
     title: 'Starwars',
-    des: 'Lorem ipsum dolor sit amet consectetur. Vulputate id habitant tempus gravida cursus purus dapibus pellentesque quam. Odio morbi non id et.',
+    des: 'Starwars is a meticulously crafted website that serves as the ultimate destination for all Star Wars fans. May the Force be with you on your journey through Starwars!',
     tools: 'React & Vanilla CSS',
     webLink: 'https://starwars-ochre.vercel.app/',
     gitLink: 'https://github.com/dosu-roseline/Starwars',
