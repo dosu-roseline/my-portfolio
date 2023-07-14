@@ -23,7 +23,7 @@ function NavBar() {
         </a>
       </div>
       <a
-        href="https://drive.google.com/file/d/16sEevkvs6RQ8V_x3srue_XHynsnTqkym/view?usp=sharing"
+        href="https://drive.google.com/file/d/1PpunabvDDWiWai0etG9vRcS9XXQ0BC1Z/view?usp=sharing"
         target="blank"
       >
         <button className="bg-transparent hover:bg-[#fff] hover:text-[#00242C] text-[#D9D9D9] font-semibold  py-1 px-2 md:px-5 border border-white hover:border-transparent rounded-3xl text-xs md:text-sm">
