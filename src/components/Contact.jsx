@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="bg-[#00242C] text-[#D9D9D9] px-5 py-10 md:px-20 md:py-32 border-t"
+      className="bg-[#00242C] text-[#D9D9D9] px-5 py-10 md:px-20 md:pb-40 border-t"
     >
       <div className="flex justify-between">
         <p className="py-4 flex items-center gap-2 text-[#E5FBFF]">

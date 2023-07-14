@@ -39,7 +39,7 @@ function Card({ img, title, des, gitLink, webLink, tools }) {
           {title}
         </h1>
         <p
-          className="text-[#D9D9D9] mb-2 text-[12px] md:[16px]"
+          className="text-[#D9D9D9] mb-2 text-[12px] md:text-[16px]"
           style={{ fontFamily: 'Manrope, sans-serif' }}
         >
           {des}
@@ -62,7 +62,7 @@ function Card({ img, title, des, gitLink, webLink, tools }) {
           </a>
           <a href={webLink} target="blank">
             <button
-              className="flex items-center gap-1 text-xs md:text-sm"
+              className="flex items-center gap-1 text-xs md:text-sm hover:border-b hover:pb-1"
               style={{ fontFamily: 'Fira Code, monospace' }}
             >
               View website{' '}

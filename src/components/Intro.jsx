@@ -27,7 +27,10 @@ function Intro() {
             HTML, CSS, and JavaScript, I strive to create pixel-perfect designs
             that seamlessly blend aesthetics with functionality.
           </p>
-          <a href="https://flowcv.com/resume/kcesuhc77r" target="blank">
+          <a
+            href="https://drive.google.com/file/d/16sEevkvs6RQ8V_x3srue_XHynsnTqkym/view?usp=sharing"
+            target="blank"
+          >
             <button className="bg-transparent hover:bg-[#fff] hover:text-[#00242C] text-[#D9D9D9] font-semibold  py-1 px-2 md:px-5 border border-white hover:border-transparent rounded-3xl text-xs md:text-sm mb-10">
               Resume
             </button>
