@@ -3,7 +3,10 @@ import logo from '../assets/logo.svg';
 
 function NavBar() {
   return (
-    <div className="flex justify-between items-center border-b px-5 md:px-10 py-2 text-[#D9D9D9]">
+    <div
+      className="flex justify-between items-center px-5 md:px-10 py-2 text-[#D9D9D9]"
+      style={{ borderBottom: '1px solid #4b5563' }}
+    >
       <img src={logo} alt="Logo" className="h-[25px] md:h-[50px]" />
       <div className="flex items-center gap-4 md:gap-10">
         <a href="#work">

@@ -5,13 +5,10 @@ import twitter from '../assets/twitter.svg';
 import instagram from '../assets/instagram.svg';
 import line from '../assets/Line2.svg';
 
-const Footer = () => {
+function LeftIcons() {
   return (
-    <footer
-      className="bg-[#00242C] text-[#D9D9D9] py-5 text-center"
-      style={{ borderTop: '1px solid #4b5563' }}
-    >
-      <ul className="flex gap-10 justify-center md:hidden">
+    <div className="fixed bottom-0 left-5 hidden md:block">
+      <ul>
         <li className="pb-5">
           <a href="https://github.com/dosu-roseline" target="blank">
             <img src={github} alt="" />
@@ -35,12 +32,13 @@ const Footer = () => {
             <img src={twitter} alt="" />
           </a>
         </li>
-      </ul>
-      <p className="text-[12px] md:text-[18px]">
-        Designed By Fortune Idu, Built with ❤ by yours truly Roseline Dosu
-      </p>
-    </footer>
-  );
-};
 
-export default Footer;
+        <li className="leftLine">
+          <img src={line} className="pl-2" alt="" />
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+export default LeftIcons;

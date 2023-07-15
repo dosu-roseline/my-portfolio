@@ -9,7 +9,8 @@ function Projects() {
   return (
     <section
       id="work"
-      className=" bg-[#00242C] text-white px-5 md:px-20 py-10 border-t"
+      className=" bg-[#00242C] text-white px-5 md:px-20 py-10"
+      style={{ borderTop: '1px solid #4b5563' }}
     >
       <div className="flex justify-between">
         <p className="py-4 flex items-center gap-2 text-[#E5FBFF]">

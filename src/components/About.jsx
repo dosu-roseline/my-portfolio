@@ -6,7 +6,8 @@ function About() {
   return (
     <section
       id="about-me"
-      className=" bg-[#00242C] text-[#D9D9D9] px-5 md:px-20 py-10 border-t"
+      className=" bg-[#00242C] text-[#D9D9D9] px-5 md:px-20 py-10"
+      style={{ borderTop: '1px solid #4b5563' }}
     >
       <div className="flex justify-between">
         <p className="py-4 flex items-center gap-2 text-[#E5FBFF]">
@@ -22,7 +23,7 @@ function About() {
           About Me
         </h1>
       </div>
-      <p className="md:w-[50%] w-[90%] text-xl md:text-3xl">
+      <p className="md:w-[50%] w-[90%] text-[16x] md:text-3xl">
         I'm Roseline Peace, a devoted professional who finds joy in anime and
         classical music, seamlessly blending captivating storytelling and
         timeless melodies in my life.
