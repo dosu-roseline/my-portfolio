@@ -12,6 +12,7 @@ function App() {
     <div>
       <LeftIcons />
       <Right />
+      <NavBar />
       <Intro />
       <Projects />
       <About />
