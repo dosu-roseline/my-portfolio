@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 
 function Intro() {
   return (
-    <section className="w-full bg-[#00242C] min-h-screen">
+    <section className="w-full bg-[#00242C] lg:min-h-screen">
       <NavBar />
       <div
         className="bg-cover bg-center py-6"

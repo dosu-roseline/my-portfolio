@@ -59,7 +59,7 @@ const data = [
   {
     img: omniFood,
     title: 'Omni Food',
-    des: 'With a diverse menu of nutritious meals and seamless ordering process, Omni Food ensures that your culinary journey is not only delicious but also supports your well-being.',
+    des: 'Omni Food offers a diverse menu of nutritious meals and a seamless ordering process, providing a delicious culinary experience that prioritizes your well-being.',
     tools: 'HTML, CSS & Vanilla JavaScript',
     webLink: 'https://omini-food-neon.vercel.app/',
     gitLink: 'https://github.com/dosu-roseline/omini-food',
