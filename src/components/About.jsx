@@ -1,4 +1,3 @@
-import React from 'react';
 import line from '../assets/Line.svg';
 import roseline from '../assets/roseline.png';
 
@@ -6,7 +5,7 @@ function About() {
   return (
     <section
       id="about-me"
-      className=" bg-[#00242C] text-[#D9D9D9] px-5 md:px-20 py-10"
+      className=" bg-[#00242C] text-[#D9D9D9] px-5 md:px-20 py-10 min-h-screen"
       style={{ borderTop: '1px solid #4b5563' }}
     >
       <div className="flex justify-between">
@@ -23,13 +22,17 @@ function About() {
           About Me
         </h1>
       </div>
-      <p className="md:w-[50%] w-[90%] text-[16x] md:text-3xl">
+      <p className="lg:w-[50%] w-[90%] text-[16x] md:text-3xl">
         I'm Roseline Peace, a devoted professional who finds joy in anime and
         classical music, seamlessly blending captivating storytelling and
         timeless melodies in my life.
       </p>
-      <div className="flex flex-col md:flex-row items-center px-5 md:px-10 gap-10">
-        <img src={roseline} alt="Roseline Dosu" className="h-[500px]" />
+      <div className="flex flex-col lg:flex-row items-center px-5 md:px-10 gap-10">
+        <img
+          src={roseline}
+          alt="Roseline Dosu"
+          className="md:h-[500px] min-h-[250px]"
+        />
         <div className="">
           <div className="">
             <p

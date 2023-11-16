@@ -1,4 +1,4 @@
-import React from 'react';
+
 import line from '../assets/Line2.svg';
 
 function Right() {

@@ -1,4 +1,3 @@
-import React from 'react';
 import git from '../assets/github.svg';
 import arrow from '../assets/arrow.svg';
 
@@ -26,7 +25,7 @@ function Card({ img, title, des, gitLink, webLink, tools }) {
         e.currentTarget.style.border = '3px solid #00517B';
       }}
     >
-      <div className="bg-[#00000033] rounded-2xl w-[60%] md:w-[30%]">
+      <div className="bg-[#00000033] rounded-2xl w-[60%] md:w-[40%] lg:w-[30%] mb-5 md:mb-0">
         <img
           src={img}
           alt=""
@@ -45,7 +44,7 @@ function Card({ img, title, des, gitLink, webLink, tools }) {
           {des}
         </p>
         <p
-          className="text-[#D9D9D9] text-[12px] md:text-[18px] font-normal pb-2 md:mb-5"
+          className="text-[#D9D9D9] text-[12px] md:text-[18px] font-normal pb-2 md:mb-[0.3rem] lg:mb-5"
           style={{ fontFamily: 'Fira Code, monospace' }}
         >
           {tools}

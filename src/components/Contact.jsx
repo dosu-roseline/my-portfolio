@@ -1,19 +1,19 @@
-import React from 'react';
 import line from '../assets/Line.svg';
 
 function Contact() {
   return (
     <div
       id="contact"
-      className="bg-[#00242C] text-[#D9D9D9] px-5 py-10 md:px-20 md:pb-40"
+      className="bg-[#00242C] text-[#D9D9D9] px-5 py-10 md:px-20 md:pb-40 min-h-screen"
       style={{ borderTop: '1px solid #4b5563' }}
     >
       <div className="flex justify-between">
         <p className="py-4 flex items-center gap-2 text-[#E5FBFF]">
-          <img src={line} alt="" /> Contact me
+          <img src={line} alt="" />
+          Contact me
         </p>
         <h1
-          className="text-3xl md:text-8xl font-normal leading-none text-transparent bg-clip-text"
+          className="text-3xl md:text-[5rem] lg:text-8xl font-normal leading-none text-transparent bg-clip-text"
           style={{
             backgroundImage:
               'linear-gradient(180deg, #004757 0%, rgba(0, 36, 44, 0.00) 100%)',
@@ -32,7 +32,7 @@ function Contact() {
       </p>
       <a
         href="mailto:dosuroseline@gmail.com"
-        class="border-b hover:border hover:p-2 hover:font-medium"
+        className="border-b hover:border hover:p-2 hover:font-medium"
       >
         Say Hello
       </a>

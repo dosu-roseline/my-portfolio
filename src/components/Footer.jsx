@@ -1,9 +1,7 @@
-import React from 'react';
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
 import twitter from '../assets/twitter.svg';
 import instagram from '../assets/instagram.svg';
-import line from '../assets/Line2.svg';
 
 const Footer = () => {
   return (
