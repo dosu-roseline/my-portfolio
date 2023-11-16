@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="bg-[#00242C] text-[#D9D9D9] px-5 py-10 md:px-20 md:pb-40 min-h-screen"
+      className="bg-[#00242C] text-[#D9D9D9] px-5 py-10 md:px-20 md:pb-40 lg:min-h-screen"
       style={{ borderTop: '1px solid #4b5563' }}
     >
       <div className="flex justify-between">

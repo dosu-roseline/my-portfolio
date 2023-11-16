@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about-me"
-      className=" bg-[#00242C] text-[#D9D9D9] px-5 md:px-20 py-10 min-h-screen"
+      className=" bg-[#00242C] text-[#D9D9D9] px-5 md:px-20 py-10 lg:min-h-screen"
       style={{ borderTop: '1px solid #4b5563' }}
     >
       <div className="flex justify-between">

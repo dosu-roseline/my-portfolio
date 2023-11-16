@@ -4,7 +4,7 @@ import arrow from '../assets/arrow.svg';
 function Card({ img, title, des, gitLink, webLink, tools }) {
   return (
     <div
-      className="flex flex-col md:flex-row items-center mb-5 md:mb-10 py-5 md:py-10 md:px-10 md:gap-10 h-[360px] md:h-[320px]"
+      className="flex flex-col md:flex-row items-center mb-5 md:mb-10 py-3 md:py-10 md:px-10 md:gap-10 h-[360px] md:h-[320px]"
       style={{
         background:
           'linear-gradient(180deg, #004757 22.70%, rgba(0, 36, 44, 0.00) 100%)',
